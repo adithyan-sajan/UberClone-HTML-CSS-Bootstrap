@@ -16,3 +16,19 @@ ul {
   border-radius: 25px;
   backdrop-filter: blur(10px);
 }
+
+.planLater {
+  background-image: url("https://tb-static.uber.com/prod/udam-assets/5152cc71-a5b0-4fbd-aeb8-bee896efcd48.png");
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  gap: 20px;
+  background-color: #b1d7de;
+  padding: 50px 300px 50px 75px;
+  border-radius: 25px;
+}
+
+#benefits{
+    gap: 20px;
+}

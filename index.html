@@ -9,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <!-- bootstrap icons CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css -->
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -194,10 +196,33 @@
         <div class="loginLeft d-flex flex-column justify-content-center gap-3">
           <h2 class="fw-bold">Log in to see your account details</h2>
           <p>View past trips, tailored suggestions, support resources, and more.</p>
-          <span><button type="button" class="btn btn-dark">Log in to your account </button> <a style="color: black;" href=""> Create an account</a></span>
+          <span><button type="button" class="btn btn-dark">Log in to your account</button> <a class="ms-5" style="color: black" href=""> Create an account</a></span>
         </div>
         <div class="loginRight m-5">
           <img style="margin-left: 100px" src="https://tb-static.uber.com/prod/udam-assets/850e6b6d-a29e-4960-bcab-46de99547d24.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="container w-75">
+      <h1 class="fw-bold">Plan for Later</h1>
+      <div class="row g-5">
+        <div class="col-md-7 d-flex flex-column planLater">
+          <h1 class="fw-bold">Get your ride right with Uber reserve</h1>
+          <p class="fw-bolder">Choose date and time</p>
+          <span>
+            <button type="button" class="btn btn-light">Date</button>
+            <button type="button" class="btn btn-light">Time</button>
+          </span>
+          <button type="button" class="btn btn-dark w-50">Next</button>
+        </div>
+        <div class="col-md-3 ms-5 d-flex flex-column justify-content-center g-0">
+          <h4 class="fw-bolder">Benefits</h4>
+          <ul class="d-flex flex-column" id="benefits">
+            <li><i class="fa-solid fa-calendar"></i> Choose your exact pickup time up to 90 days in advance.</li>
+            <li><i class="fa-solid fa-clock"></i>Extra wait time included to meet your ride.</li>
+            <li><i class="fa-solid fa-credit-card"></i>Cancel at no charge up to 60 minutes in advance.</li>
+          </ul>
+          <a class="mt-4" style="color: black" href="">See more</a>
         </div>
       </div>
     </section>
